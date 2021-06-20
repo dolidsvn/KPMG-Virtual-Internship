@@ -46,7 +46,7 @@ Take a Deep look at all the data preparation changes log [here](https://github.c
 * Columns with less important data such as 'first_name','Last_name' are filled with 'unknown'.
 * Columns with usefull data such as 'tenure' is filled with **median Imputation** across Industry
 * For more  importing,handling missing and outliers,exporting refer my R script.
- [here](https://github.com/dolidsvn/KPMG-VirtualInternship/blob/main/R%20scripts/customerdemograpic_handling%20data.R) 
+ [here](https://github.com/dolidsvn/KPMG-Virtual-Internship/tree/main/R%20scripts) 
 
 ##  DATA ANALYSIS
 As the data set is small I have used for data cleaning and analysis purpose.
