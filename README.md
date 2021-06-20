@@ -1,14 +1,14 @@
 # KPMG Virtual Internship
-In this internship I had Worked on fictitious Bike company named as **SPROCKET CENTRAL PLY LTD** situated in **Australia** .I had provided with the customers data of 2017 to work on.
+In this internship I had Worked on fictitious Bike company named as **SPROCKET CENTRAL PLY LTD** 🚴🏿‍♂️ 🚴🏿‍♂️ 🚴🏿‍♂️ situated in **Australia** .I had provided with the customers data of 2017 to work on.
 
 ## OVERVIEW
  It is a Data Analytics virtual Internship Designed to help people gain a practical knowledge of working at **KPMG**
  There are 3 modules in the internship:
- * Data Quality Assessment.
- * Data Insights.
- * Data Insights and Presentation.
+ * Data Quality Assessment. ✔️
+ * Data Insights. ✔️
+ * Data Insights and Presentation. ✔️
  
-## DATA SET AND DETAILS
+## DATA SET AND DETAILS 
 The data about the **SPROCKET CENTRAL PYL LTD** is in the form of .xlsx
 The workbook contains 4 important worksheets
 * CustomersDemoGraphics. (rows:4000,columns:13)
@@ -16,10 +16,10 @@ The workbook contains 4 important worksheets
 * Transactions. (rows:20000,columns:13)
 * CustomerAddress. (rows:4000,columns:6)
 View the data [here](https://github.com/dolidsvn/KPMG-Virtual-Internship/tree/main/Raw%20DataSet)
-## GOALS
+## GOALS 🎓 🎓
 * To find pattern in the data for better understanding of customers. 
 
-## DATA PREPARATION
+## DATA PREPARATION 🧽 🧽
 The data is a full mess with inconsistant data types,contaminated columns,
 invalid data,and rows with missing.
 * I used **Microsoft Excel** for cleaning Data as Excel can handle the data at ease.
@@ -41,23 +41,23 @@ some of the errors are:
 such as 'f','Femal','m'.
 
 Take a Deep look at all the data preparation changes log [here](https://github.com/dolidsvn/KPMG-Virtual-Internship/tree/main/changelog).
-* MISSING DATA
+* MISSING DATA ❓ ❓ ❓  
 * There are lot Missing Data(NA),Blanks in the given Data are handle using R **tidyverse**.
 * Columns with less important data such as 'first_name','Last_name' are filled with 'unknown'.
 * Columns with usefull data such as 'tenure' is filled with **median Imputation** across Industry
 * For more  importing,handling missing and outliers,exporting refer my R script.
  [here](https://github.com/dolidsvn/KPMG-Virtual-Internship/tree/main/R%20scripts) 
 
-##  DATA ANALYSIS
+##  DATA ANALYSIS 🔭 🔬
 As the data set is small I have used for data cleaning and analysis purpose.
- After spending most of the time cleaning and validation data is ready for some analysis.I have created two new coolumns in **CustomersDemographic**,**NewcustomersList**
+ After spending most of the time cleaning and validation 🕗 🕘 🕙  data is ready for some analysis.I have created two new coolumns in **CustomersDemographic**,**NewcustomersList**
  which are 'AGE' and 'AGE CATEGORY' based on DOB column for better understanding of my customers age how the factor age is effecting.Age is calulated using formula
 =YEAR(NOW())-YEAR(CELL_REFERENCE) and for cagetories used a nested if =IF(AND(F2>19,F2<=35),"(19-35)years",IF(AND(F2>35,F2<=60),"(36-60)years",IF(AND(F2>60,F2<90),"retired","none"))).
 * After all the preparation done I used Excel **pivot table** and **pivot charts** and R **ggplot** for a quick understanding,visualization and analysis of data.
 
 
 
-## KEY INSIGHTS
+## KEY INSIGHTS 🔍 🔍
 * This company focuses mostly eastern australia as there are only customers from New south waes,Queensland,Victoria.
 * Majority of the customers are living in New South Wales.
 * Most of the customers are between age 36-60 years.
@@ -70,7 +70,7 @@ As the data set is small I have used for data cleaning and analysis purpose.
 All the key sights are visualised in DashBoard developed using **TABLEAU DESKTOP**.
 Check out My **Sprocket central 2017**  Dashboard [here](https://public.tableau.com/app/profile/doli.sai.vivek.nath/viz/SprocketCentral2017/Dashboard1)
 
-## TOOLS USED
+## TOOLS USED 🔧 🔨 ⚒ 🛠 ⛏
 
 ![TOOLS](https://github.com/dolidsvn/KPMG-Virtual-Internship/blob/main/images/tools.png)
 
