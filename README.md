@@ -1,5 +1,5 @@
 # KPMG Virtual Internship
-In this internship I had Worked on fictitious Bike company named as **SPROCKET CENTRAL PLY LTD** situated in **Australia** .I had provided with the customers data to work on.
+In this internship I had Worked on fictitious Bike company named as **SPROCKET CENTRAL PLY LTD** situated in **Australia** .I had provided with the customers data of 2017 to work on.
 
 ## OVERVIEW
  It is a Data Analytics virtual Internship Designed to help people gain a practical knowledge of working at **KPMG**
