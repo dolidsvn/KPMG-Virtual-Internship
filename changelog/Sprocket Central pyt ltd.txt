@@ -1,0 +1,72 @@
+#contaminated data
+1.I have removed the column names 'default' which contains all sort of text and some queries. 
+  This can be eliminated by checking the leakage in ETL and pipeline.
+
+2.In column 'decreased_indicator' I have replace all the N to readable word "No" and y with"YES"
+3.In the column 'DOB' found a year less than 1899 which is usaual date are calculated from 
+1899 december 31------1
+1900 january-----2
+.
+.
+.
+so on
+and from date 1843-2021 it will be around 157 years which is not possible for a person to have
+a age of 157 so it has to be replaced 1843 with 1943.
+
+3.centralised the column 'gender' only with female and male from other values 
+such as 'f','Femal','m'.
+
+
+#In customerAddress sheet 
+
+In the address column we have extra 3 rows (4003) and count is 4000 in the demographics sheet
+which means we are have missing customers adresss.
+validating the data  I found that customerid 3,10,22,23 are missing  which may be related 
+to the extra three rows we have.
+we have to perform further investigation to confirm the lost address.
+
+
+In the state replaced the state with full names
+NSW with new south wales
+QLD with queensland
+VIC vivtoria
+
+
+Strange thing found in the address column 
+'64 macpherson juction' is having both staes new south wales and Queensland
+'3 mariners cove terracce' is in both Victoria and New South wales
+
+
+#In trasactions sheet
+
+
+The column product_first_sold contains date as number covnverted them to date 
+using custom format
+
+
+#In newcustomers list
+
+In the state replaced the state with full names
+NSW with new south wales
+QLD with queensland
+VIC vivtoria
+
+Corrected many data type error such as column having int 
+value represented as text such as data in the postcode, property valuation
+and past_3_years_bike_related_purchases.
+
+
+#In the sheet newcustomerlist and customersDemographic
+Calculated the age using
+=year(now())-year(cell)
+then used this to categories into age category
+
+=IF(AND(F2>19,F2<=35),"(19-35)years",IF(AND(F2>35,F2<=60),"(36-60)years",IF(AND(F2>60,F2<90),"retired","none")))
+min age is=19
+max age is=91
+from the age column
+none is for the value 0 where the DOB are missing
+
+
+
+
